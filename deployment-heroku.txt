@@ -1,0 +1,14 @@
+#1 Set engines
+-----------------------------------
+"engines": {
+    "node": "14.17.2",
+    "npm": "7.19.1"
+}
+
+#2 Change start script 
+-----------------------------------
+"start": "next start -p $PORT",
+
+#3 Add script 
+-----------------------------------
+"heroku-postbuild": "npm run build"
